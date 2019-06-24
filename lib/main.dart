@@ -8,8 +8,8 @@ import 'register.dart';
 import 'home.dart';
 import 'forum.dart';
 import 'assignment.dart';
-import 'search.dart';
 import 'timeline.dart';
+import 'profile.dart';
 
 void main() => runApp(MaterialApp(
   home: Login(),
@@ -18,9 +18,10 @@ void main() => runApp(MaterialApp(
    '/home': (context) => Home(),
    '/forum': (context) => ListPage(),
    '/assignment': (context) => Assignment(),
-   '/search': (context) => Search(),
+  //  '/search': (context) => Search(),
    '/login': (context) => Login(),
    '/timeline': (context) => Timeline(),
+   '/profiles': (context) => Profile(),
  },
   debugShowCheckedModeBanner: false,
 ));
